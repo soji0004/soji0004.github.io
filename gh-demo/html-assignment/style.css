@@ -1,17 +1,21 @@
-body {
+body
+{
   font-family: Arial, sans-serif;
   font-size: 18px;
 }
 
-header, footer {
+header, footer
+{
   background-color: rgb(27, 255, 251);
 }
 
-.site-title {
+.site-title
+{
   color: blue;
 }
 
-#my-image {
+#my-image
+{
   box-shadow: 0 0 2px 1px black;
 }
 
@@ -19,7 +23,8 @@ ul {
   list-style-type: square;
 }
 
-li:nth-child(odd) {
+li:nth-child(odd)
+{
   background-color: rgb(129, 255, 140);
 }
 
