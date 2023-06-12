@@ -14,10 +14,6 @@ header, footer
   background-color: rgb(27, 255, 251);
 }
 
-.site-title
-{
-  color: blue;
-}
 
 #my-image
 {
@@ -39,7 +35,10 @@ nav ul {
 }
 
 nav a {
-  text-decoration: none;
+  text-decoration:crimson;
+  background-color: chartreuse;
+  border: 1px solid green;
+  padding-bottom: 8px 12px;
 }
 
 nav a:hover,
