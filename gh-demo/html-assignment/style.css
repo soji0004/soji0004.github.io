@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+header, footer {
+  background-color: rgb(27, 255, 251);
+}
+
+.site-title {
+  color: blue;
+}
+
+#my-image {
+  box-shadow: 0 0 2px 1px black;
+}
+
+ul {
+  list-style-type: square;
+}
+
+li:nth-child(odd) {
+  background-color: rgb(129, 255, 140);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+  background-color: rgb(202, 255, 89);
+  border: 1px solid rgb(250, 95, 255);
+}
