@@ -1,23 +1,19 @@
-body
-{
-  font-family: Arial, sans-serif;
-  font-size: 18px;
-}
+body {font-family: Arial, Helvetica, sans-serif; font-size: 18px;}
 
-title 
+h1 
 {
-color: brown;
+color:rgb(47, 255, 0);
 }
 
 header, footer
 {
-  background-color: rgb(27, 255, 251);
+  background-color: rgb(75, 75, 75);
 }
 
 
 #my-image
 {
-  box-shadow: 0 0 2px 1px black;
+  box-shadow: 0 0 2px 1px rgb(0, 0, 0);
 }
 
 ul {
@@ -26,7 +22,7 @@ ul {
 
 li:nth-child(odd)
 {
-  background-color: rgb(129, 255, 140);
+  background-color: rgb(206, 206, 206);
 }
 
 nav ul {
@@ -35,14 +31,14 @@ nav ul {
 }
 
 nav a {
-  text-decoration:crimson;
-  background-color: chartreuse;
-  border: 1px solid green;
+  text-decoration:rgb(20, 220, 153);
+  background-color: rgb(248, 169, 255);
+  border: 1px solid rgb(13, 0, 128);
   padding-bottom: 8px 12px;
 }
 
 nav a:hover,
 nav a:focus {
-  background-color: rgb(202, 255, 89);
+  background-color: rgb(214, 126, 255);
   border: 1px solid rgb(250, 95, 255);
 }
